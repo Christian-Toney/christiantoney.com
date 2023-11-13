@@ -30,6 +30,7 @@ p, b, a, li, h1, h2, h3, h4, h5, h6 {
 a {
   text-decoration: none;
   color: #2d79f7;
+  font-size: 16px;
 }
 
 p, b {
@@ -38,10 +39,12 @@ p, b {
 
 p {
   font-weight: 300;
+  font-size: 16px;
 }
 
 b {
   font-weight: 500;
+  font-size: 16px;
 }
 
 #imageContainer {
