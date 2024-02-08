@@ -24,8 +24,10 @@ main, footer {
   box-sizing: border-box;
 }
 
-footer p {
+footer > p {
   color: gray;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 p, b, a, li, h1, h2, h3, h4, h5, h6 {
@@ -73,6 +75,7 @@ b {
   align-items: flex-start;
   gap: 10px;
   flex-direction: column;
+  align-items: center;
 }
 
 #contactContainer > ul {
@@ -82,9 +85,14 @@ b {
   margin: 0;
   padding: 0;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 @media screen and (min-width: 800px) {
+
+  #footer > p {
+    text-align: left;
+  }
   
   #contactContainer {
     flex-direction: row;
